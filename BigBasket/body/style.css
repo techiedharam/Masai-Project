@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   }
+   /* uilities classes  */
+   .margin {
+       margin: 0 12% 0 12%;
+   }
+   
+   .flex {
+       display: flex;
+       justify-content: space-between;
+       /* align-items: center; */
+   }
+.container .box img:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+  /* CSS Started   */
+/* Hero Section css  */
+
+/* #hero {
+    
+} */
+
+/* #hero div {
+    
+} */
+
+#hero div img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* LinearCollage Secttion  css  */
+/* 
+#LinearCollage {
+
+} */
+
+#LinearCollage .container {
+    width: 100%;  
+    margin: 20px 0 20px 0; 
+}
+
+#LinearCollage .container .box {
+    width: 15%;
+}
+
+#LinearCollage .container .box img {
+    width: 100%;
+    cursor: pointer;
+}
+
+
+
+/* big Sale Section  css  */
+
+/* #big-sale {
+
+} */
+/* #big-sale div {
+    width: 100%;
+} */
+#big-sale div img {
+    width: 100%;
+}
+
+/* Bank Offer Section css  */
+#bank-offer {
+    margin-top: 15px;
+    width: 100%;
+}
+
+#bank-offer  .container {
+    width: 80%;  
+    margin: auto;   
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#bank-offer  .container .box {
+    width: 23%;
+}
+#bank-offer .container .box img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Best Seller Section css */
+
+
+
+ /* Top Offer Section css*/
+ #top-offer {
+    margin-top: 20px;
+}
+
+#top-offer  .container {
+    width: 80%;  
+    margin: auto; 
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#top-offer  .container .box {
+    width: 23%;
+}
+#top-offer .container .box img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Fruits and Vegitables Section css*/
+#fruits-vegetables {
+    margin-top: 20px;
+}
+
+#fruits-vegetables .container {
+    width: 80%;  
+    margin: auto; 
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#fruits-vegetables  .container .box {
+    width: 23%;
+}
+#fruits-vegetables .container .box img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Your Daily Staples Section css*/
+#daily-staples {
+    margin-top: 20px;
+}
+
+#daily-staples .container {
+    width: 80%;  
+    margin: auto; 
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#daily-staples  .container .box {
+    width: 15%;
+}
+#daily-staples .container .box img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+
+/* Beverages Section css  */
+#beverages {
+    margin-top: 20px;
+}
+
+#beverages .container {
+    width: 80%;  
+    margin: auto; 
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#beverages .container .box {
+    width: 15%;
+}
+#beverages .container .box img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Snacks Store section css  */
+#snacks-store {
+    margin-top: 20px;
+}
+
+#snacks-store .container {
+    width: 80%;  
+    margin: auto; 
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#snacks-store  .container .box {
+    width: 23%;
+}
+#snacks-store .container .box img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Cleaning & Household section css  */
+#cleaning-household {
+    margin-top: 20px;
+}
+
+#cleaning-household .container {
+    width: 80%;  
+    margin: auto; 
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#cleaning-household .container .box {
+    width: 23%;
+}
+#cleaning-household .container .box img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Beauty and Hygiene Section css  */
+#beauty-hygiene{
+    margin-top: 20px;
+}
+
+#beauty-hygiene .container {
+    width: 80%;  
+    margin: auto; 
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#beauty-hygiene .container .box {
+    width: 15%;
+}
+#beauty-hygiene .container .box img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Home and Kitchen Section css  */
+#home-kitchen{
+    margin-top: 20px;
+}
+
+#home-kitchen .container {
+    width: 80%;  
+    margin: auto; 
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#home-kitchen .container .box {
+    width: 15%;
+}
+#home-kitchen .container .box img {
+    width: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* Offer Slider Section css  */
+
+/* #slider {
+
+} */
+
+#slider .container {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    /* border: 1px solid red; */
+    margin-top: 20px;
+}
+
+#slider .container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    transition: transform 1s ease;
+}
+
+#slider #prev-next {
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+}
+#slider #prev-next button {
+    width: 60px;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    font-weight: 700;
+    border-radius: 20px;
+    background-color: black;
+}
+
+/* Brand Store css  */
+#brand-store{
+    margin-top: 20px;
+}
+
+#brand-store .container {
+    width: 80%;  
+    margin: auto; 
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+#brand-store.container .box {
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    width: 15%;
+}
+#brand-store .container .box img {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 90%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#aboutInfo {
+    margin-top: 25px;
+}
+#aboutInfo h4 {
+    font-weight: 500;
+}
+
+#aboutInfo p {
+    font-size: 14px;
+    font-weight: 300;
+}
