@@ -1,4 +1,4 @@
-// JS code for slider 
+// JS code for slider in index.html file 
 const imgArr = [
     "bigBasketImg/Image File59.jpg" , 
     "bigBasketImg/Image File60.jpg" , 
