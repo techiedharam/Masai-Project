@@ -1,9 +1,9 @@
 // JS code for slider 
 const imgArr = [
-    "/BigBasket/bigBasketImg/Image File59.jpg" , 
-    "/BigBasket/bigBasketImg/Image File60.jpg" , 
-    "/BigBasket/bigBasketImg/Image File61.jpg" , 
-    "/BigBasket/bigBasketImg/Image File62.jpg" 
+    "bigBasketImg/Image File59.jpg" , 
+    "bigBasketImg/Image File60.jpg" , 
+    "bigBasketImg/Image File61.jpg" , 
+    "bigBasketImg/Image File62.jpg" 
 ]
 
 const slideImg = document.querySelector('#slideImg');
